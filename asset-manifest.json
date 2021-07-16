@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/tiendaLibrosReact/static/js/main.83a71765.chunk.js",
+    "main.js.map": "/tiendaLibrosReact/static/js/main.83a71765.chunk.js.map",
+    "runtime-main.js": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js",
+    "runtime-main.js.map": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js.map",
+    "static/css/2.4be38407.chunk.css": "/tiendaLibrosReact/static/css/2.4be38407.chunk.css",
+    "static/js/2.1996dd26.chunk.js": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js",
+    "static/js/2.1996dd26.chunk.js.map": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js.map",
+    "index.html": "/tiendaLibrosReact/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/tiendaLibrosReact/static/css/2.4be38407.chunk.css.map",
+    "static/js/2.1996dd26.chunk.js.LICENSE.txt": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js.LICENSE.txt",
+    "static/media/corona_medianoche.91e625f6.jpg": "/tiendaLibrosReact/static/media/corona_medianoche.91e625f6.jpg",
+    "static/media/corredor_laberinto.69f65249.jpg": "/tiendaLibrosReact/static/media/corredor_laberinto.69f65249.jpg",
+    "static/media/gran_juego.0be7f01b.jpg": "/tiendaLibrosReact/static/media/gran_juego.0be7f01b.jpg",
+    "static/media/harry_potter.71c57c2f.jpg": "/tiendaLibrosReact/static/media/harry_potter.71c57c2f.jpg",
+    "static/media/juegos_hambre.97ad3cff.jpg": "/tiendaLibrosReact/static/media/juegos_hambre.97ad3cff.jpg",
+    "static/media/origin.23abfdc4.jpg": "/tiendaLibrosReact/static/media/origin.23abfdc4.jpg",
+    "static/media/principito.c72148a3.jpg": "/tiendaLibrosReact/static/media/principito.c72148a3.jpg",
+    "static/media/tbate.3378d8ee.jpg": "/tiendaLibrosReact/static/media/tbate.3378d8ee.jpg",
+    "static/media/trono_cristal.fc4aeac3.jpg": "/tiendaLibrosReact/static/media/trono_cristal.fc4aeac3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ff203bd.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.1996dd26.chunk.js",
+    "static/js/main.83a71765.chunk.js"
+  ]
+}
