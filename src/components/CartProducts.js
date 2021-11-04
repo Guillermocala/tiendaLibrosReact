@@ -5,8 +5,8 @@ import CartItem from "./CartItem";
 const CartProducts = () => {
     const { cartItems } = useContext(CartContext);
     return (
-        <div className="products">
-            <div className="card card-body border-0">
+        <div className="justify-content-center">
+            <div className="card card-body">
                 {cartItems.map((product) => (
                     <CartItem key={product.key} product={product} />
                 ))}

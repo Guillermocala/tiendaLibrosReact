@@ -19,7 +19,7 @@ const Cart = () => {
                 <div className="col-sn-9 p-3">
                     {cartItems.length > 0 ? (
                         <CartProducts />
-                        ) : (
+                    ) : (
                         <div className="p-3 text-center text-muted">
                             El carro de compra está vacío
                         </div>
@@ -34,24 +34,26 @@ const Cart = () => {
                     )}
                 </div>
                 {cartItems.length > 0 && (
-                    <div className="col-sm-3 p-3">  
-                        <div className="card card-body">
-                            <p className="mb-1">Total items</p>
-                            <h4 className="mb-3 txt-right"> {itemCount} </h4>
-                            <p className="mb-1">Total a pagar</p>
-                            <h3 className="m-0 txt-right"> $ {total} </h3>
-                            <hr className="my-4"/>
-                            <div className="text-center">
+                    <div className="col-sm-3 p-3">
+                        <div className="card p-2">
+                            <div className="card-body">
+                                <p className="mb-1">Total items</p>
+                                <h4 className="mb-3 text-right"> {itemCount} </h4>
+                                <p className="mb-1">Total a pagar</p>
+                                <h3 className="m-0 text-right"> $ {total} </h3>
+
+                            </div>
+                            <div className="card-footer text-center">
                                 <button
                                     type="button"
-                                    className="btn btn-primary mb-2"
+                                    className="btn btn-primary mx-1"
                                     onClick={handleCheckout}
                                 >
                                     Comprar
                                 </button>
                                 <button
                                     type="button"
-                                    className="btn btn-outlineprimary btn-sm"
+                                    className="btn btn-danger mx-1"
                                     onClick={clearCart}
                                 >
                                     Cancelar

@@ -26,12 +26,20 @@ export default function ProductItem(props) {
                     <span> $ {props.product.price} </span>
                 </div>
             </div>
-            <div className="card-footer btn-toolbar " role="toolbar" aria-label="toolbar with button groups">
-                <div className="btn-group mx-2" role="group" aria-label="second group">
+            <div className="card-footer btn-toolbar justify-content-center" role="toolbar" aria-label="toolbar with button groups">
+                <div className="btn-group " role="group" aria-label="first group">
+                    <button
+                        onClick={() => { alert("detalles"); }}
+                        className="btn btn-outline-dark mx-1"
+                    >
+                        Detalles
+                    </button>
+                </div>
+                <div className="btn-group" role="group" aria-label="second group">
                     {isInCart(props.product) && (
                         <button
                             onClick={() => increase(props.product)}
-                            className="btn btn-outline-dark"
+                            className="btn btn-outline-dark mx-1"
                         >
                             Agregar mas
                         </button>
@@ -39,20 +47,12 @@ export default function ProductItem(props) {
                     {!isInCart(props.product) && (
                         <button
                             onClick={() => addProduct(props.product)}
-                            className="btn btn-outline-dark"
+                            className="btn btn-outline-dark mx-1"
                         >
                             Agregar
                         </button>
                     )}
                 </div>
-                <div className="btn-group " role="group" aria-label="first group">
-                    <button
-                        onClick={() => { alert("detalles"); }}
-                        className="btn btn-outline-dark"
-                    >
-                        Detalles
-                    </button>
-                </div> 
             </div>
         </div>
     );
