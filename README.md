@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Git hub pages
+
+Click [Here](https://guillermocala.github.io/tiendaLibrosReact/)
+
 ## Available Scripts
 
 In the project directory, you can run:
