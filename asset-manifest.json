@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/tiendaLibrosReact/static/js/main.83a71765.chunk.js",
-    "main.js.map": "/tiendaLibrosReact/static/js/main.83a71765.chunk.js.map",
+    "main.js": "/tiendaLibrosReact/static/js/main.432bdb3f.chunk.js",
+    "main.js.map": "/tiendaLibrosReact/static/js/main.432bdb3f.chunk.js.map",
     "runtime-main.js": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js",
     "runtime-main.js.map": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js.map",
     "static/css/2.4be38407.chunk.css": "/tiendaLibrosReact/static/css/2.4be38407.chunk.css",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.2ff203bd.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.1996dd26.chunk.js",
-    "static/js/main.83a71765.chunk.js"
+    "static/js/main.432bdb3f.chunk.js"
   ]
 }
