@@ -2,47 +2,57 @@ import React, { useContext } from "react";
 import { CartContext } from "../contexts/CartContex";
 
 export default function ProductItem(props) {
-    const { addProduct, cartItems, increase } = useContext(CartContext); 
-    
+    const { addProduct, cartItems, increase } = useContext(CartContext);
+
     const isInCart = (product) => {
         return !!cartItems.find((item) => item.id === product.id);
     };
     return (
-        <div className="row cardItem">
-            <div className="card-md-6">
+        <div className="card text-center p-2">
+            <div classname="card-img-top">
                 <img
-                    classname="card-img-top"
+                    className="rounded"
                     src={props.product.img}
                     alt="img libro"
-                    width="150px"
+                    width="80%"
                     height="300px"
+
                 />
             </div>
-            <div className="card-md-6">
+            <div className="card-body">
                 <div className="small"> {props.product.code} </div>
                 <h4> {props.product.name} </h4>
-                <div className="fs-5 mb-3">
+                <div className="fs-5">
                     <span> $ {props.product.price} </span>
                 </div>
-                <p className="fs-5"> {props.product.description} </p>
-                <div className="d-flex">
+            </div>
+            <div className="card-footer btn-toolbar " role="toolbar" aria-label="toolbar with button groups">
+                <div className="btn-group mx-2" role="group" aria-label="second group">
                     {isInCart(props.product) && (
                         <button
                             onClick={() => increase(props.product)}
-                            className="btn btn-outline-dark flex-shrink-0"
+                            className="btn btn-outline-dark"
                         >
-                            agregar mas
+                            Agregar mas
                         </button>
                     )}
                     {!isInCart(props.product) && (
                         <button
                             onClick={() => addProduct(props.product)}
-                            className="btn btn-outline-dark flex-shrink-0"
+                            className="btn btn-outline-dark"
                         >
-                            agregar al carrito
+                            Agregar
                         </button>
                     )}
                 </div>
+                <div className="btn-group " role="group" aria-label="first group">
+                    <button
+                        onClick={() => { alert("detalles"); }}
+                        className="btn btn-outline-dark"
+                    >
+                        Detalles
+                    </button>
+                </div> 
             </div>
         </div>
     );

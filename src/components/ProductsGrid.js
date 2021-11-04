@@ -92,7 +92,7 @@ const ProductsGrid = () => {
             <div className="row">
                 {products.map((productItem, index) => {
                     return (
-                        <div className="col mb-3">
+                        <div className="col-md-3 p-2">
                             <ProductItem key={productItem.id} product={productItem} />
                         </div>
                     );
