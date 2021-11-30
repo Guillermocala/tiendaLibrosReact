@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/tiendaLibrosReact/static/js/main.ec79ee5a.chunk.js",
-    "main.js.map": "/tiendaLibrosReact/static/js/main.ec79ee5a.chunk.js.map",
+    "main.js": "/tiendaLibrosReact/static/js/main.c74d4463.chunk.js",
+    "main.js.map": "/tiendaLibrosReact/static/js/main.c74d4463.chunk.js.map",
     "runtime-main.js": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js",
     "runtime-main.js.map": "/tiendaLibrosReact/static/js/runtime-main.2ff203bd.js.map",
     "static/css/2.4be38407.chunk.css": "/tiendaLibrosReact/static/css/2.4be38407.chunk.css",
-    "static/js/2.1996dd26.chunk.js": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js",
-    "static/js/2.1996dd26.chunk.js.map": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js.map",
+    "static/js/2.ed565983.chunk.js": "/tiendaLibrosReact/static/js/2.ed565983.chunk.js",
+    "static/js/2.ed565983.chunk.js.map": "/tiendaLibrosReact/static/js/2.ed565983.chunk.js.map",
     "index.html": "/tiendaLibrosReact/index.html",
     "static/css/2.4be38407.chunk.css.map": "/tiendaLibrosReact/static/css/2.4be38407.chunk.css.map",
-    "static/js/2.1996dd26.chunk.js.LICENSE.txt": "/tiendaLibrosReact/static/js/2.1996dd26.chunk.js.LICENSE.txt",
+    "static/js/2.ed565983.chunk.js.LICENSE.txt": "/tiendaLibrosReact/static/js/2.ed565983.chunk.js.LICENSE.txt",
     "static/media/corona_medianoche.91e625f6.jpg": "/tiendaLibrosReact/static/media/corona_medianoche.91e625f6.jpg",
     "static/media/corredor_laberinto.69f65249.jpg": "/tiendaLibrosReact/static/media/corredor_laberinto.69f65249.jpg",
     "static/media/gran_juego.0be7f01b.jpg": "/tiendaLibrosReact/static/media/gran_juego.0be7f01b.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.2ff203bd.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.1996dd26.chunk.js",
-    "static/js/main.ec79ee5a.chunk.js"
+    "static/js/2.ed565983.chunk.js",
+    "static/js/main.c74d4463.chunk.js"
   ]
 }
