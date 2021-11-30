@@ -1,14 +1,22 @@
 import React, { useContext } from "react";
 import { CartContext } from "../contexts/CartContex";
-
+import Modals from "./Modals";
+import { useModal } from "../hooks/useModal";
 export default function ProductItem(props) {
     const { addProduct, cartItems, increase } = useContext(CartContext);
 
     const isInCart = (product) => {
         return !!cartItems.find((item) => item.id === product.id);
     };
+    const [isOpenModalDetalles, openModalDetalles, closeModalDetalles] = useModal(false);
     return (
         <div className="card text-center p-2">
+            <Modals 
+                opcion={"detallesProducto"}
+                producto={props.product}
+                statusModal={isOpenModalDetalles}
+                close={closeModalDetalles}
+            />
             <div classname="card-img-top">
                 <img
                     className="rounded"
@@ -29,7 +37,7 @@ export default function ProductItem(props) {
             <div className="card-footer btn-toolbar justify-content-center" role="toolbar" aria-label="toolbar with button groups">
                 <div className="btn-group " role="group" aria-label="first group">
                     <button
-                        onClick={() => { alert("detalles"); }}
+                        onClick={openModalDetalles}
                         className="btn btn-outline-dark mx-1"
                     >
                         Detalles
